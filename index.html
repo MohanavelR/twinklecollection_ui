@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -159,16 +160,17 @@
                 <div class="col-lg-8 col-md-8">
                     <ul class="filter__controls">
                         <li class="active" data-filter="*">All</li>
-                        <li data-filter=".women">Women’s</li>
-                        <li data-filter=".men">Men’s</li>
-                        <li data-filter=".kid">Kid’s</li>
+                        <li data-filter=".womens">Women’s</li>
+                        <li data-filter=".mens">Men’s</li>
+                        <li data-filter=".kids">Kid’s</li>
                         <!-- <li data-filter=".accessories">Accessories</li>
                     <li data-filter=".cosmetic">Cosmetics</li> -->
                     </ul>
                 </div>
             </div>
-            <div class="row property__gallery">
-                <div class="col-lg-3 col-md-4 col-sm-6 mix women">
+           
+            <div class="row property__gallery" id="product__gallary_container">
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6 mix women">
                     <div class="product__item">
                         <div class="product__item__pic set-bg" data-setbg="img/product/product-1.jpg">
                             <div class="label new">New</div>
@@ -356,7 +358,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- Product Section End -->
@@ -409,8 +411,8 @@
     <section class="trend spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="trend__content">
+                <div class="col-lg-4 col-md-4 col-sm-6" >
+                    <div class="trend__content" id="hot_trend_container" >
                         <div class="section-title">
                             <h4>Hot Trend</h4>
                         </div>
@@ -465,7 +467,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="trend__content">
+                    <div class="trend__content" id="best_seller_container">
                         <div class="section-title">
                             <h4>Best seller</h4>
                         </div>
@@ -520,7 +522,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="trend__content">
+                    <div class="trend__content" id="feature_container">
                         <div class="section-title">
                             <h4>Feature</h4>
                         </div>
@@ -871,8 +873,8 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/product.js"></script>
+    <script src="js/main.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
     <script>

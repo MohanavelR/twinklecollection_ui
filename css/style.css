@@ -698,6 +698,8 @@ object-fit: cover;
 
 .trend__item__pic {
 	float: left;
+	height: 100px ;
+	width: 100px;
 	margin-right: 25px;
 }
 
